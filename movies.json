@@ -1,0 +1,1366 @@
+{
+  "last_updated": "2026-06-17 16:58:11",
+  "movies": [
+    {
+      "title": "Inside Out 2",
+      "year": 2024,
+      "rating": "8.0",
+      "runtime": "96 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Riley is officially a teenager, and headquarters is undergoing a sudden demolition to make room for new Emotions! Joy, Sadness, Anger, Fear, and Disgust aren't sure how to feel when Anxiety, Envy, Embarrassment, and Ennui show up.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Inside_Out_2_poster.jpg/250px-Inside_Out_2_poster.jpg",
+      "imdb_id": "tt22022452"
+    },
+    {
+      "title": "The Wild Robot",
+      "year": 2024,
+      "rating": "8.4",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Sci-Fi",
+        "Family"
+      ],
+      "overview": "After a shipwreck, an intelligent robot named Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/r/r2/The_Wild_Robot_poster.jpg/250px-The_Wild_Robot_poster.jpg",
+      "imdb_id": "tt29623480"
+    },
+    {
+      "title": "Kung Fu Panda 4",
+      "year": 2024,
+      "rating": "6.3",
+      "runtime": "94 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Comedy"
+      ],
+      "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as the Dragon Warrior. As such, he trains a new kung fu practitioner and encounters a villain called the Chameleon.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Kung_Fu_Panda_4_poster.jpg/250px-Kung_Fu_Panda_4_poster.jpg",
+      "imdb_id": "tt21692408"
+    },
+    {
+      "title": "The Fall Guy",
+      "year": 2024,
+      "rating": "7.0",
+      "runtime": "126 min",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Romance"
+      ],
+      "overview": "A battered stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy, and try to win back the love of his life while still doing his day job.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/The_Fall_Guy_%282024%29_poster.jpg/250px-The_Fall_Guy_%282024%29_poster.jpg",
+      "imdb_id": "tt1684562"
+    },
+    {
+      "title": "Barbie",
+      "year": 2023,
+      "rating": "6.9",
+      "runtime": "114 min",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Adventure"
+      ],
+      "overview": "Stereotypical Barbie experiences a full-on existential crisis and must travel to the real world in order to understand herself and discover her true purpose, alongside a very eager Ken.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+      "imdb_id": "tt1517268"
+    },
+    {
+      "title": "Wonka",
+      "year": 2023,
+      "rating": "7.0",
+      "runtime": "116 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Musical"
+      ],
+      "overview": "Focusing on a young Willy Wonka and how he met the Oompa-Loompas on one of his earliest adventures, this movie serves as a magical prequel showing how the world's greatest chocolatier began.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Wonka_2023_poster.jpg/250px-Wonka_2023_poster.jpg",
+      "imdb_id": "tt6166392"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "year": 2023,
+      "rating": "8.6",
+      "runtime": "140 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg/250px-Spider-Man-_Across_the_Spider-Verse_poster.jpg",
+      "imdb_id": "tt9362722"
+    },
+    {
+      "title": "Moana 2",
+      "year": 2024,
+      "rating": "6.8",
+      "runtime": "100 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys to the far seas of Oceania and into long-lost, dangerous waters for an adventure unlike anything she's ever faced.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Moana_2_poster.jpeg/250px-Moana_2_poster.jpeg",
+      "imdb_id": "tt13622970"
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "rating": "7.7",
+      "runtime": "128 min",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "overview": "A listless Wade Wilson toils in civilian life with his days as the morally flexible mercenary behind him. But when his homeworld faces an existential threat, he must reluctantly suit-up with an even more reluctant Wolverine.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Deadpool_%26_Wolverine_poster.jpg/250px-Deadpool_%26_Wolverine_poster.jpg",
+      "imdb_id": "tt6263850"
+    },
+    {
+      "title": "IF (Imaginary Friends)",
+      "year": 2024,
+      "rating": "6.5",
+      "runtime": "104 min",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends grew up, teaming up with a neighbor to reconnect them.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/IF_2024_poster.jpg/250px-IF_2024_poster.jpg",
+      "imdb_id": "tt11136638"
+    },
+    {
+      "title": "Hit Man",
+      "year": 2024,
+      "rating": "7.0",
+      "runtime": "115 min",
+      "genres": [
+        "Comedy",
+        "Action",
+        "Romance"
+      ],
+      "overview": "A straight-laced professor who moonlights as a fake hit man for the police department meets a client who steals his heart, throwing his carefully controlled double life into absolute chaos.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Hit_Man_%282023_film%29_poster.jpg/250px-Hit_Man_%282023_film%29_poster.jpg",
+      "imdb_id": "tt20215968"
+    },
+    {
+      "title": "Ghostbusters: Frozen Empire",
+      "year": 2024,
+      "rating": "6.1",
+      "runtime": "115 min",
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Fantasy"
+      ],
+      "overview": "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Ghostbusters_Frozen_Empire_poster.jpg/250px-Ghostbusters_Frozen_Empire_poster.jpg",
+      "imdb_id": "tt21235248"
+    },
+    {
+      "title": "Sonic the Hedgehog 3",
+      "year": 2024,
+      "rating": "7.2",
+      "runtime": "110 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Action",
+        "Family"
+      ],
+      "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. They must seek an unlikely alliance to save the planet.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sonic_the_Hedgehog_3_poster.jpg/250px-Sonic_the_Hedgehog_3_poster.jpg",
+      "imdb_id": "tt18259086"
+    },
+    {
+      "title": "Paddington in Peru",
+      "year": 2024,
+      "rating": "7.5",
+      "runtime": "106 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Paddington travels to Peru with the Brown family to visit his beloved Aunt Lucy at the Home for Retired Bears, leading them all on an unexpected journey through the Amazon rainforest and up the mountains.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Paddington_in_Peru_poster.jpg/250px-Paddington_in_Peru_poster.jpg",
+      "imdb_id": "tt5822536"
+    },
+    {
+      "title": "Despicable Me 4",
+      "year": 2024,
+      "rating": "6.2",
+      "runtime": "94 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Gru, Lucy, Margo, Edith, and Agnes welcome a new member to the family, Gru Jr., who is intent on tormenting his dad. Meanwhile, Gru faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Despicable_Me_4_poster.jpg/250px-Despicable_Me_4_poster.jpg",
+      "imdb_id": "tt7510222"
+    },
+    {
+      "title": "Wicked",
+      "year": 2024,
+      "rating": "7.9",
+      "runtime": "160 min",
+      "genres": [
+        "Fantasy",
+        "Musical",
+        "Romance",
+        "Drama"
+      ],
+      "overview": "Elphaba, an misunderstood green-skinned young woman, forms an unlikely but profound friendship with Glinda, a popular student at Shiz University. Following an encounter with the Wizard, their lives take very different paths.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Wicked_film_poster.jpg/250px-Wicked_film_poster.jpg",
+      "imdb_id": "tt1262426"
+    },
+    {
+      "title": "Orion and the Dark",
+      "year": 2024,
+      "rating": "6.9",
+      "runtime": "92 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "A boy with an active imagination faces his greatest fears on an unforgettable journey through the night with his new friend: a giant, smiling creature named Dark, who shows him there is nothing to fear.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Orion_and_the_Dark_poster.jpg/250px-Orion_and_the_Dark_poster.jpg",
+      "imdb_id": "tt28066777"
+    },
+    {
+      "title": "Elemental",
+      "year": 2023,
+      "rating": "7.0",
+      "runtime": "101 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "In a city where fire, water, land, and air residents live together, a fiery young woman and a go-with-the-flow guy discover something elemental: how much they actually have in common.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Elemental_poster.jpg/250px-Elemental_poster.jpg",
+      "imdb_id": "tt15789038"
+    },
+    {
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "year": 2023,
+      "rating": "7.2",
+      "runtime": "134 min",
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Comedy",
+        "Action"
+      ],
+      "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people in this fun fantasy adventure.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Dungeons_%26_Dragons_Honor_Among_Thieves_poster.jpg/250px-Dungeons_%26_Dragons_Honor_Among_Thieves_poster.jpg",
+      "imdb_id": "tt2906216"
+    },
+    {
+      "title": "Fly Me to the Moon",
+      "year": 2024,
+      "rating": "6.6",
+      "runtime": "132 min",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "overview": "A marketing genius is hired by NASA to spruce up their public image during the 1960s space race, wreaking havoc on the launch director's already difficult task of staging a fake moon landing as backup.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Fly_Me_to_the_Moon_%282024_film%29_poster.jpg/250px-Fly_Me_to_the_Moon_%282024_film%29_poster.jpg",
+      "imdb_id": "tt1896747"
+    },
+    {
+      "title": "The Super Mario Bros. Movie 2",
+      "year": 2026,
+      "rating": "7.4",
+      "runtime": "95 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Mario and Luigi embark on a brand new warp-pipe adventure in the Mushroom Kingdom, encountering new friends and foes.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "year": 2022,
+      "rating": "7.9",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: he has burned through eight of his nine lives.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/78/Puss_in_Boots_The_Last_Wish_poster.jpg",
+      "imdb_id": "tt3915174"
+    },
+    {
+      "title": "Glass Onion: A Knives Out Mystery",
+      "year": 2022,
+      "rating": "7.1",
+      "runtime": "139 min",
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Drama"
+      ],
+      "overview": "Famed Southern detective Benoit Blanc travels to Greece to peel back the layers of a mystery involving a tech billionaire and his eclectic crew of friends.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/62/Glass_Onion_poster.jpg",
+      "imdb_id": "tt11564570"
+    },
+    {
+      "title": "Enola Holmes 2",
+      "year": 2022,
+      "rating": "6.7",
+      "runtime": "129 min",
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Crime"
+      ],
+      "overview": "Now a detective-for-hire like her infamous brother, Enola Holmes takes on her first official case to find a missing girl, as the sparks of a dangerous conspiracy ignite a mystery.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Enola_Holmes_2_poster.png",
+      "imdb_id": "tt14641788"
+    },
+    {
+      "title": "Nimona",
+      "year": 2023,
+      "rating": "7.5",
+      "runtime": "101 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "overview": "A knight framed for a tragic crime teams up with a mischievous, shape-shifting teenager named Nimona to prove his innocence.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Nimona_poster.png/250px-Nimona_poster.png",
+      "imdb_id": "tt19500164"
+    },
+    {
+      "title": "Trolls Band Together",
+      "year": 2023,
+      "rating": "6.4",
+      "runtime": "92 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Poppy discovers that Branch was once part of a boy band, BroZone, with his brothers. When one brother is kidnapped, they set out to reunite the band.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Trolls3film.jpg/250px-Trolls3film.jpg",
+      "imdb_id": "tt14362112"
+    },
+    {
+      "title": "Wish",
+      "year": 2023,
+      "rating": "5.6",
+      "runtime": "95 min",
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "A young girl named Asha makes a wish on a star that is answered by a cosmic force, a little ball of boundless energy called Star.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/WishMoviePoster.jpg/250px-WishMoviePoster.jpg",
+      "imdb_id": "tt11304740"
+    },
+    {
+      "title": "Chicken Run: Dawn of the Nugget",
+      "year": 2023,
+      "rating": "6.4",
+      "runtime": "97 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Adventure"
+      ],
+      "overview": "A band of fearless chickens flock together to save their kind from an unsettling new threat on a nearby farm.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Chicken_run_dawn_of_the_nugget.jpg/250px-Chicken_run_dawn_of_the_nugget.jpg",
+      "imdb_id": "tt8337264"
+    },
+    {
+      "title": "Knives Out",
+      "year": 2019,
+      "rating": "7.9",
+      "runtime": "130 min",
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Drama"
+      ],
+      "overview": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Knives_Out_poster.jpeg/250px-Knives_Out_poster.jpeg",
+      "imdb_id": "tt8946378"
+    },
+    {
+      "title": "Free Guy",
+      "year": 2021,
+      "rating": "7.1",
+      "runtime": "115 min",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "overview": "A bank teller discovers he is actually a background player in an open-world video game.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Free_Guy_2021_Poster.jpg/250px-Free_Guy_2021_Poster.jpg",
+      "imdb_id": "tt6264654"
+    },
+    {
+      "title": "The Bob's Burgers Movie",
+      "year": 2022,
+      "rating": "7.0",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Adventure"
+      ],
+      "overview": "A ruptured water main creates an enormous sinkhole right in front of Bob's Burgers, blocking the entrance.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Bob%27s_Burgers_Movie_poster.jpg/250px-Bob%27s_Burgers_Movie_poster.jpg",
+      "imdb_id": "tt7466442"
+    },
+    {
+      "title": "Lyle, Lyle, Crocodile",
+      "year": 2022,
+      "rating": "6.1",
+      "runtime": "106 min",
+      "genres": [
+        "Family",
+        "Comedy",
+        "Musical"
+      ],
+      "overview": "A young boy struggles to make friends at school, but his life changes when he discovers a singing crocodile living in his attic.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/39/Lyle%2C_Lyle%2C_Crocodile_%28film%29.jpg",
+      "imdb_id": "tt14668630"
+    },
+    {
+      "title": "Matilda the Musical",
+      "year": 2022,
+      "rating": "6.4",
+      "runtime": "117 min",
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Musical"
+      ],
+      "overview": "An adaptation of the Tony and Olivier Award-winning musical about an extraordinary girl with a sharp mind and a vivid imagination.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Matilda_the_Musical_UK_Film_Poster.jpg/250px-Matilda_the_Musical_UK_Film_Poster.jpg",
+      "imdb_id": "tt3447590"
+    },
+    {
+      "title": "Slumberland",
+      "year": 2022,
+      "rating": "6.7",
+      "runtime": "117 min",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "A young girl discovers a secret dreamworld of Slumberland, where she teams up with an eccentric outlaw.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Slumberland_%28film%29.jpg",
+      "imdb_id": "tt13320662"
+    },
+    {
+      "title": "Disenchanted",
+      "year": 2022,
+      "rating": "5.6",
+      "runtime": "118 min",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "Giselle questions her happiness, accidentally flipping the lives of those in the real world and Andalasia upside down.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Disenchanted.jpg",
+      "imdb_id": "tt1596342"
+    },
+    {
+      "title": "Hocus Pocus 2",
+      "year": 2022,
+      "rating": "6.1",
+      "runtime": "101 min",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "overview": "Three young women accidentally bring the Sanderson Sisters back to modern-day Salem.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Hocus_Pocus_2_Logo.jpg/250px-Hocus_Pocus_2_Logo.jpg",
+      "imdb_id": "tt11909878"
+    },
+    {
+      "title": "Sneakerella",
+      "year": 2022,
+      "rating": "5.9",
+      "runtime": "112 min",
+      "genres": [
+        "Family",
+        "Musical",
+        "Romance"
+      ],
+      "overview": "A modern twist on Cinderella set in the sneaker subculture of New York City.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Sneakerella.jpg/250px-Sneakerella.jpg",
+      "imdb_id": "tt10160886"
+    },
+    {
+      "title": "Better Nate Than Ever",
+      "year": 2022,
+      "rating": "6.3",
+      "runtime": "92 min",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Musical"
+      ],
+      "overview": "13-year-old Nate Foster has big Broadway dreams, sneaking off to New York to audition.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Better_Nate_Than_Ever_poster.jpeg/250px-Better_Nate_Than_Ever_poster.jpeg",
+      "imdb_id": "tt14696284"
+    },
+    {
+      "title": "Flora & Ulysses",
+      "year": 2021,
+      "rating": "6.2",
+      "runtime": "95 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A young girl rescues a squirrel with superhero powers, embarking on a hilarious adventure.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Flora_and_Ulysses_Poster.jpg/250px-Flora_and_Ulysses_Poster.jpg",
+      "imdb_id": "tt8521736"
+    },
+    {
+      "title": "Encanto",
+      "year": 2021,
+      "rating": "7.2",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A Colombian girl faces the frustration of being the only member of her family without magical powers.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Encanto_poster.jpg/250px-Encanto_poster.jpg",
+      "imdb_id": "tt2953050"
+    },
+    {
+      "title": "Luca",
+      "year": 2021,
+      "rating": "7.5",
+      "runtime": "95 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/33/Luca_%282021_film%29.png",
+      "imdb_id": "tt12802134"
+    },
+    {
+      "title": "Raya and the Last Dragon",
+      "year": 2021,
+      "rating": "7.3",
+      "runtime": "107 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "overview": "In a realm known as Kumandra, a renegade warrior searches for the last dragon to save her world.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Raya_and_the_Last_Dragon.png",
+      "imdb_id": "tt5109280"
+    },
+    {
+      "title": "Cruella",
+      "year": 2021,
+      "rating": "7.3",
+      "runtime": "134 min",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "overview": "A live-action prequel following the early life of the rebellious fashion designer Cruella de Vil.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Cruella_2021_film_poster.jpg",
+      "imdb_id": "tt3228774"
+    },
+    {
+      "title": "Jungle Cruise",
+      "year": 2021,
+      "rating": "6.6",
+      "runtime": "127 min",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "A riverboat captain takes a British scientist and her brother through a jungle in search of the Tree of Life.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Jungle_Cruise_-_theatrical_poster.png/250px-Jungle_Cruise_-_theatrical_poster.png",
+      "imdb_id": "tt0870154"
+    },
+    {
+      "title": "The Mitchells vs. the Machines",
+      "year": 2021,
+      "rating": "7.6",
+      "runtime": "113 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A quirky, dysfunctional family's road trip is interrupted by a robot apocalypse.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/MitchellsMachinesPoster.jpg/250px-MitchellsMachinesPoster.jpg",
+      "imdb_id": "tt7979580"
+    },
+    {
+      "title": "Soul",
+      "year": 2020,
+      "rating": "8.0",
+      "runtime": "100 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A jazz pianist finds himself stuck in the afterlife, helping an infant soul find her passion.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/39/Soul_%282020_film%29_poster.jpg",
+      "imdb_id": "tt2948372"
+    },
+    {
+      "title": "Onward",
+      "year": 2020,
+      "rating": "7.4",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Two elven brothers embark on a quest to discover if there is still magic in the world to spend one day with their late father.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/03/Onward_poster.jpg",
+      "imdb_id": "tt7146812"
+    },
+    {
+      "title": "Spies in Disguise",
+      "year": 2019,
+      "rating": "6.8",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Comedy"
+      ],
+      "overview": "The world's best spy is turned into a pigeon and must rely on his nerdy tech officer to save the world.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Spies_in_Disguise_Final_Poster.jpeg/250px-Spies_in_Disguise_Final_Poster.jpeg",
+      "imdb_id": "tt5814534"
+    },
+    {
+      "title": "Abominable",
+      "year": 2019,
+      "rating": "7.0",
+      "runtime": "97 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "A group of friends embark on an epic quest to reunite a young Yeti with his family on Mount Everest.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/10/Abominable_%282019_poster%29.png",
+      "imdb_id": "tt6324278"
+    },
+    {
+      "title": "The Secret Life of Pets 2",
+      "year": 2019,
+      "rating": "6.5",
+      "runtime": "86 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Continuing the story of Max and his pet friends, following their secret lives after their owners leave them for work.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/The_Secret_Life_of_Pets_2_%282019%29_Final_Poster.jpg/250px-The_Secret_Life_of_Pets_2_%282019%29_Final_Poster.jpg",
+      "imdb_id": "tt5113040"
+    },
+    {
+      "title": "Toy Story 4",
+      "year": 2019,
+      "rating": "7.7",
+      "runtime": "100 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Woody, Buzz Lightyear, and the rest of the gang embark on a road trip with a new toy named Forky.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Toy_Story_4_poster.jpg",
+      "imdb_id": "tt1979376"
+    },
+    {
+      "title": "Aladdin",
+      "year": 2019,
+      "rating": "6.9",
+      "runtime": "128 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their wishes come true.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png/250px-Aladdin_%28Official_2019_Film_Poster%29.png",
+      "imdb_id": "tt6139732"
+    },
+    {
+      "title": "Pokémon Detective Pikachu",
+      "year": 2019,
+      "rating": "6.5",
+      "runtime": "104 min",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "In a world where people collect Pokémon, a boy comes across an intelligent talking Pikachu who seeks to be a detective.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Pok%C3%A9mon_Detective_Pikachu_teaser_poster.jpg/250px-Pok%C3%A9mon_Detective_Pikachu_teaser_poster.jpg",
+      "imdb_id": "tt5884052"
+    },
+    {
+      "title": "Shazam!",
+      "year": 2019,
+      "rating": "7.0",
+      "runtime": "132 min",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "A newly fostered boy searches for his mother, only to find himself gifted with super powers.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Shazam%21_%28film%29_poster.jpg/250px-Shazam%21_%28film%29_poster.jpg",
+      "imdb_id": "tt0448115"
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "rating": "8.4",
+      "runtime": "117 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "overview": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Spider-Man_Beyond_the_Spider-Verse_logo.jpg/250px-Spider-Man_Beyond_the_Spider-Verse_logo.jpg",
+      "imdb_id": "tt4633694"
+    },
+    {
+      "title": "Paddington 2",
+      "year": 2017,
+      "rating": "7.8",
+      "runtime": "103 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Paddington, now happily settled with the Brown family, picks up odd jobs to buy a present for his Aunt Lucy's birthday.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Paddington_2_poster.jpg/250px-Paddington_2_poster.jpg",
+      "imdb_id": "tt4468740"
+    },
+    {
+      "title": "The Lego Batman Movie",
+      "year": 2017,
+      "rating": "7.3",
+      "runtime": "104 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Comedy"
+      ],
+      "overview": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he accidentally adopted a teenage orphan.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/61/The_Lego_Batman_Movie_PromotionalPoster.jpg",
+      "imdb_id": "tt0096895"
+    },
+    {
+      "title": "Moana",
+      "year": 2016,
+      "rating": "7.6",
+      "runtime": "107 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Moana_%282026_film%29_poster.jpg/250px-Moana_%282026_film%29_poster.jpg",
+      "imdb_id": "tt27419466"
+    },
+    {
+      "title": "Zootopia",
+      "year": 2016,
+      "rating": "8.0",
+      "runtime": "108 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg",
+      "imdb_id": "tt2948356"
+    },
+    {
+      "title": "Inside Out",
+      "year": 2015,
+      "rating": "8.1",
+      "runtime": "95 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "overview": "After a young girl is uprooted from her Midwest life and moved to San Francisco, her emotions conflict on how best to navigate a new city.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
+      "imdb_id": "tt2096673"
+    },
+    {
+      "title": "Paddington",
+      "year": 2014,
+      "rating": "7.2",
+      "runtime": "95 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A young Peruvian bear travels to London in search of a home. Finding himself lost at Paddington Station, he meets the kindly Brown family.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/06/PaddingtonPOSTER.jpg",
+      "imdb_id": "tt1109624"
+    },
+    {
+      "title": "The Lego Movie",
+      "year": 2014,
+      "rating": "7.7",
+      "runtime": "100 min",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "overview": "An ordinary LEGO construction worker, thought to be the prophesied 'Special', is recruited to join a quest to stop an evil tyrant.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Lego_Movie_poster.jpg",
+      "imdb_id": "tt1490017"
+    },
+    {
+      "title": "Frozen",
+      "year": 2013,
+      "rating": "7.4",
+      "runtime": "102 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice, her sister Anna teams up with a mountain man to find her.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Frozen_%282013_film%29_poster.jpg/250px-Frozen_%282013_film%29_poster.jpg",
+      "imdb_id": "tt2294629"
+    },
+    {
+      "title": "Despicable Me",
+      "year": 2010,
+      "rating": "7.6",
+      "runtime": "95 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg/250px-Despicable_Me_%282010_animated_feature_film%29.jpg",
+      "imdb_id": "tt1323594"
+    },
+    {
+      "title": "Challengers",
+      "year": 2024,
+      "rating": "7.3",
+      "runtime": "131 min",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Sports"
+      ],
+      "overview": "Tashi, a former tennis prodigy turned coach, has turned her husband into a grand slam champion. She makes him play a 'Challenger' event where he faces his former best friend.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/b4/Challengers_2024_poster.jpeg",
+      "imdb_id": "tt16426418"
+    },
+    {
+      "title": "A Real Pain",
+      "year": 2024,
+      "rating": "7.2",
+      "runtime": "90 min",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "overview": "Mismatched cousins David and Benji reunite for a tour through Poland to honor their beloved grandmother, clashing over old tensions.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/A_Real_Pain_%282024_film%29_poster.jpg/250px-A_Real_Pain_%282024_film%29_poster.jpg",
+      "imdb_id": "tt21823606"
+    },
+    {
+      "title": "Next Goal Wins",
+      "year": 2023,
+      "rating": "6.5",
+      "runtime": "104 min",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sports"
+      ],
+      "overview": "The story of the infamously terrible American Samoa soccer team, which suffered a record-breaking 31-0 loss in 2001.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3d/Next_goal_wins_2023.png",
+      "imdb_id": "tt10767052"
+    },
+    {
+      "title": "The Garfield Movie",
+      "year": 2024,
+      "rating": "5.7",
+      "runtime": "101 min",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "After an unexpected reunion with his long-lost father, Garfield and Odie are forced into joining him in a high-stakes heist.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/The_Garfield_Movie_2024_poster.jpg/250px-The_Garfield_Movie_2024_poster.jpg",
+      "imdb_id": "tt5779228"
+    },
+    {
+      "title": "BlackBerry",
+      "year": 2023,
+      "rating": "7.4",
+      "runtime": "119 min",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "History"
+      ],
+      "overview": "The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/BlackBerryFilmPoster.png/250px-BlackBerryFilmPoster.png",
+      "imdb_id": "tt21867434"
+    },
+    {
+      "title": "The Holdovers",
+      "year": 2023,
+      "rating": "7.9",
+      "runtime": "133 min",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "overview": "A crabby history teacher at a prep school is forced to remain on campus over the holidays to babysit the handful of students with nowhere to go.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Holdovers_film_poster.jpg/250px-Holdovers_film_poster.jpg",
+      "imdb_id": "tt14849194"
+    },
+    {
+      "title": "Anyone But You",
+      "year": 2023,
+      "rating": "6.2",
+      "runtime": "103 min",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "overview": "After an amazing first date, Bea and Ben pretend to be a couple at a destination wedding in Australia.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Anyone_but_You_%282023%29_official_poster.webp/250px-Anyone_but_You_%282023%29_official_poster.webp.png",
+      "imdb_id": "tt26047818"
+    },
+    {
+      "title": "Ricky Stanicky",
+      "year": 2024,
+      "rating": "6.2",
+      "runtime": "113 min",
+      "genres": [
+        "Comedy"
+      ],
+      "overview": "When three best friends use an imaginary friend named Ricky Stanicky to get out of trouble, they hire a washed-up actor to pose as Ricky.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Ricky_Stanicky_poster.jpg/250px-Ricky_Stanicky_poster.jpg",
+      "imdb_id": "tt1660648"
+    },
+    {
+      "title": "Unfrosted",
+      "year": 2024,
+      "rating": "5.5",
+      "runtime": "93 min",
+      "genres": [
+        "Comedy",
+        "History"
+      ],
+      "overview": "In 1963 Michigan, Kelloggs and Post, sworn cereal rivals, race to create a pastry that will change the face of breakfast.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Unfrosted_poster.jpg/250px-Unfrosted_poster.jpg",
+      "imdb_id": "tt14914430"
+    },
+    {
+      "title": "Wolfs",
+      "year": 2024,
+      "rating": "6.5",
+      "runtime": "108 min",
+      "genres": [
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "overview": "Two rival lone-wolf fixers are hired to cover up the same high-profile crime, forcing them to work together.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Wolfs_%28film%29.jpg/250px-Wolfs_%28film%29.jpg",
+      "imdb_id": "tt14257582"
+    },
+    {
+      "title": "Camp Fire",
+      "year": 2025,
+      "rating": "6.5",
+      "runtime": "103 min",
+      "genres": [
+        "Comedy",
+        "Adventure"
+      ],
+      "overview": "A group of parents takes over a summer camp, leading to competitive capture-the-flag matches, canoe crashes, and nostalgic fun.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Double Trouble",
+      "year": 2024,
+      "rating": "6.3",
+      "runtime": "92 min",
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "overview": "Identical twin detectives swap places to crack a smuggling ring in London, only to realize they are both out of their depth.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Elvis-double-trouble.jpg/250px-Elvis-double-trouble.jpg",
+      "imdb_id": "tt0061595"
+    },
+    {
+      "title": "Wired Up",
+      "year": 2024,
+      "rating": "6.9",
+      "runtime": "108 min",
+      "genres": [
+        "Sci-Fi",
+        "Comedy"
+      ],
+      "overview": "A software engineer accidentally programs his smart home to have a sarcastic, witty personality, locking him in for the weekend.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Game On",
+      "year": 2025,
+      "rating": "7.2",
+      "runtime": "115 min",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "overview": "A group of board game enthusiasts finds themselves sucked into a fantasy-themed game world and must play to win their freedom.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Up in the Air 2026",
+      "year": 2026,
+      "rating": "7.0",
+      "runtime": "94 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A grandfather and granddaughter construct a giant hot air balloon from recycled sails to fly over the Rocky Mountains.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Family Vacation",
+      "year": 2024,
+      "rating": "6.2",
+      "runtime": "99 min",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "overview": "The Miller family's trip to a remote forest cabin goes hilariously wrong as they deal with faulty GPS, friendly bears, and rain.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "The Chef's Special",
+      "year": 2024,
+      "rating": "7.3",
+      "runtime": "104 min",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "overview": "A famous food critic loses his sense of taste and has to rely on a quirky street-food vendor to rewrite his columns.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Starstruck",
+      "year": 2025,
+      "rating": "6.6",
+      "runtime": "101 min",
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "overview": "An astronomer mistaken for a famous pop star gets stuck in a small town during a meteor shower, hiding out with a local baker.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Starstruck_DVD.jpg/250px-Starstruck_DVD.jpg",
+      "imdb_id": "tt1579247"
+    },
+    {
+      "title": "School's Out",
+      "year": 2024,
+      "rating": "6.4",
+      "runtime": "94 min",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A principal accidentally gets locked in the school over summer break with three mischievous students trying to pull the ultimate prank.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Recess_Schools_Out_film.jpg/250px-Recess_Schools_Out_film.jpg",
+      "imdb_id": "tt0265632"
+    },
+    {
+      "title": "Island Escape",
+      "year": 2025,
+      "rating": "6.8",
+      "runtime": "108 min",
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "A group of tourists gets stranded on a tropical resort island after missing their cruise, embarking on a survival quest.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "City Slickers 2025",
+      "year": 2025,
+      "rating": "6.5",
+      "runtime": "102 min",
+      "genres": [
+        "Comedy"
+      ],
+      "overview": "Three friends leave the busy city of New York to run a goat farm in Vermont, with zero farming experience.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Love and Coffee",
+      "year": 2024,
+      "rating": "6.6",
+      "runtime": "95 min",
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "overview": "A corporate lawyer travels to Colombia to evaluate a coffee farm and falls for the charming local roaster.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Robot Friends",
+      "year": 2025,
+      "rating": "7.0",
+      "runtime": "98 min",
+      "genres": [
+        "Sci-Fi",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "A household robot designed to wash dishes develops a passion for performing stand-up comedy, escaping to a local club.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Dino World",
+      "year": 2024,
+      "rating": "6.1",
+      "runtime": "100 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "An animator discovers that his drawing board brings a cartoon baby dinosaur to life, wreaking havoc in his apartment.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Secret Mission",
+      "year": 2025,
+      "rating": "6.7",
+      "runtime": "110 min",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "overview": "A retired secret agent becomes a substitute teacher, using his espionage skills to handle a classroom of rowdy fifth graders.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Secret_Mission_%281942%29_DVD_cover.jpg/250px-Secret_Mission_%281942%29_DVD_cover.jpg",
+      "imdb_id": "tt0035301"
+    },
+    {
+      "title": "Home Run",
+      "year": 2024,
+      "rating": "6.5",
+      "runtime": "103 min",
+      "genres": [
+        "Comedy",
+        "Sports"
+      ],
+      "overview": "A failed minor-league baseball player is forced to coach his nephew's dysfunctional Little League team to victory.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Home_Run_poster.jpg",
+      "imdb_id": "tt2051894"
+    },
+    {
+      "title": "Picture Perfect",
+      "year": 2024,
+      "rating": "6.9",
+      "runtime": "97 min",
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "overview": "A wedding photographer who doesn't believe in love falls for a quirky florist who organizes the events.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Picture_perfect_ver1.jpg/250px-Picture_perfect_ver1.jpg",
+      "imdb_id": "tt0119896"
+    },
+    {
+      "title": "Treasure Hunt",
+      "year": 2025,
+      "rating": "7.0",
+      "runtime": "115 min",
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "overview": "Four estranged siblings are forced to follow a map left by their eccentric uncle to find a family treasure.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/TreasureHunt1994.jpg/250px-TreasureHunt1994.jpg",
+      "imdb_id": "tt0110071"
+    },
+    {
+      "title": "Happy Campers",
+      "year": 2024,
+      "rating": "6.3",
+      "runtime": "94 min",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Two rival families book the same camping site for the weekend, sparking a hilarious prank war.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Happy_Campers_2001_poster.jpg",
+      "imdb_id": "tt0210094"
+    },
+    {
+      "title": "Magic Shop",
+      "year": 2025,
+      "rating": "6.8",
+      "runtime": "101 min",
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "overview": "A young boy buys a deck of magic cards from a mysterious shop, discovering the tricks actually work.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Rescue Mission",
+      "year": 2024,
+      "rating": "6.4",
+      "runtime": "96 min",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "overview": "Three domestic pets embark on a cross-country journey to locate their family after getting separated at an airport.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Tech Support",
+      "year": 2025,
+      "rating": "6.6",
+      "runtime": "98 min",
+      "genres": [
+        "Comedy"
+      ],
+      "overview": "A tech support worker in India becomes a viral sensation after recording his hilarious calls with confused customers.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Runaway Train",
+      "year": 2025,
+      "rating": "6.9",
+      "runtime": "105 min",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "overview": "Two passengers accidentally decouple the caboose of a high-speed train and must steer it to safety.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Runaway_trainposter.jpg/250px-Runaway_trainposter.jpg",
+      "imdb_id": "tt0089941"
+    },
+    {
+      "title": "Mystery Mansion",
+      "year": 2024,
+      "rating": "6.7",
+      "runtime": "112 min",
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "overview": "A group of high schoolers spends a night in an escape-room mansion built by a eccentric toy inventor.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Mystery_Mansion_film.png/250px-Mystery_Mansion_film.png",
+      "imdb_id": "tt0091587"
+    },
+    {
+      "title": "Backstage Pass",
+      "year": 2025,
+      "rating": "6.8",
+      "runtime": "104 min",
+      "genres": [
+        "Musical",
+        "Comedy"
+      ],
+      "overview": "Two best friends sneak backstage at a stadium concert, getting mistaken for the lead singer's backing band.",
+      "poster_url": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop"
+    },
+    {
+      "title": "Undercover Boss",
+      "year": 2024,
+      "rating": "6.4",
+      "runtime": "99 min",
+      "genres": [
+        "Comedy"
+      ],
+      "overview": "A demanding CEO goes undercover at his company's regional branch, only to be assigned to the worst shifts.",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Undercover_Boss_logo.jpg/330px-Undercover_Boss_logo.jpg"
+    }
+  ]
+}

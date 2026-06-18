@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CinePick — Movie Night Randomizer</title>
+  <meta name="description" content="A premium, lighthearted movie decision-making tool. Lock your favorite candidate movies side-by-side!">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <div class="app-container">
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-icon">🍿</span>
+        <h1 id="main-title">CinePick</h1>
+      </div>
+      <p class="tagline">The Ultimate Lighthearted Movie Night Decision Maker</p>
+      
+      <!-- Database status row with Update button -->
+      <div class="db-status-row">
+        <div class="db-status" id="db-status-text">Database: Loading...</div>
+        <button id="db-update-btn" class="db-update-btn" title="Refresh movie list from IMDb">
+          <span class="btn-icon-spin">🔄</span> Update List
+        </button>
+      </div>
+    </header>
+
+    <main class="app-content">
+      <!-- Section 1: The Candidates Grid -->
+      <section class="candidates-section" aria-labelledby="candidates-title">
+        <div class="section-header">
+          <h2 id="candidates-title">💡 Lock & Randomize</h2>
+          <p class="instructions-text">Keep one or two movies you like by locking them. Hit **Refresh** to get new recommendations for the remaining unlocked slots!</p>
+        </div>
+
+        <div class="cards-grid" id="cards-container">
+          <!-- Movie Cards will be dynamically inserted here -->
+          <div class="movie-card skeleton"></div>
+          <div class="movie-card skeleton"></div>
+          <div class="movie-card skeleton"></div>
+        </div>
+
+        <div class="controls-bar">
+          <button id="refresh-btn" class="glow-button btn-secondary" aria-label="Refresh unlocked movies">
+            <span class="btn-icon">🔄</span> Refresh Unlocked
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 2: Selected Movies Section -->
+      <section class="selected-section" aria-labelledby="selected-title">
+        <div class="selected-header">
+          <h2 id="selected-title">❤️ Movies You've Selected</h2>
+          <p class="selected-subtitle">Your curated choices for upcoming movie nights</p>
+        </div>
+        
+        <div class="selected-list-container" id="selected-list-container">
+          <!-- Dynamically inserted list of hearted movies -->
+          <div class="empty-state">
+            <span class="empty-icon">💖</span>
+            <p>No movies selected yet. Click the heart icon on any movie poster above to save it here!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>CinePick &copy; 2026. Made with ❤️ for perfect movie nights. No horror allowed!</p>
+    </footer>
+  </div>
+
+  <!-- Fireworks Overlay Canvas -->
+  <canvas id="fireworks-canvas"></canvas>
+
+  <!-- Celebration Banner Overlay -->
+  <div id="celebration-overlay" class="celebration-overlay" aria-hidden="true">
+    <div class="celebration-box">
+      <div class="celebration-icon">🎉</div>
+      <h2>You've selected your movie!</h2>
+      <p id="celebration-movie-title">Movie Title</p>
+      <button class="celebration-close-btn" id="celebration-close-btn">Awesome!</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
