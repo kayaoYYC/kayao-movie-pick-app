@@ -109,6 +109,17 @@ let movieDatabase = [];
 let currentCandidates = [];
 let lockedSlots = [false, false, false];
 let isUpdatingDb = false;
+let activeUser = localStorage.getItem("cinepick_active_user") || "Boy";
+let boyName = localStorage.getItem("cinepick_boy_name");
+if (!boyName || boyName === "Boy") {
+  boyName = "Nick Wilde";
+  localStorage.setItem("cinepick_boy_name", boyName);
+}
+let girlName = localStorage.getItem("cinepick_girl_name");
+if (!girlName || girlName === "Girl") {
+  girlName = "Judy Hopps";
+  localStorage.setItem("cinepick_girl_name", girlName);
+}
 
 // Selected Movies State (stored in LocalStorage)
 let selectedMovies = JSON.parse(localStorage.getItem("cinepick_selected_movies")) || [];
@@ -119,6 +130,10 @@ const refreshBtn = document.getElementById("refresh-btn");
 const dbStatusText = document.getElementById("db-status-text");
 const dbUpdateBtn = document.getElementById("db-update-btn");
 const selectedListContainer = document.getElementById("selected-list-container");
+const userBoyColor = document.getElementById("user-boy-color");
+const userGirlColor = document.getElementById("user-girl-color");
+const userBoyNameInput = document.getElementById("user-boy-name-input");
+const userGirlNameInput = document.getElementById("user-girl-name-input");
 
 // Celebration Elements
 const celebrationOverlay = document.getElementById("celebration-overlay");
@@ -287,7 +302,8 @@ function toggleHeart(movie) {
     selectedMovies.unshift({
       title: movie.title,
       poster_url: movie.poster_url,
-      dateSelected: formattedDate
+      dateSelected: formattedDate,
+      selectedBy: activeUser
     });
     
     // Trigger celebration & fireworks!
@@ -318,13 +334,22 @@ function renderSelectedMovies() {
   selectedMovies.forEach((movie, index) => {
     const row = document.createElement("div");
     row.className = "selected-item-row";
+    
+    const selectedBy = movie.selectedBy || "Boy";
+    const displayName = selectedBy === "Boy" ? boyName : girlName;
+    const colorClass = selectedBy === "Boy" ? "boy" : "girl";
+
     row.innerHTML = `
       <div class="selected-thumb-container">
         <img class="selected-thumb-img" src="${movie.poster_url}" alt="${movie.title} Poster" onerror="this.src='https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=400&auto=format&fit=crop'">
       </div>
       <div class="selected-item-details">
         <h4 class="selected-item-title">❤️ ${movie.title}</h4>
-        <span class="selected-item-timestamp">Hearted on ${movie.dateSelected}</span>
+        <div class="selected-item-meta">
+          <span class="selected-by-label">Selected by <span class="selected-by-name ${colorClass}">${displayName}</span></span>
+          <span class="selected-meta-divider">&bull;</span>
+          <span class="selected-item-timestamp">Hearted on ${movie.dateSelected}</span>
+        </div>
       </div>
       <button class="selected-remove-btn" aria-label="Remove ${movie.title} from selected list" title="Remove Movie">
         &times;
@@ -448,63 +473,98 @@ function resizeFireworksCanvas() {
 }
 
 class FireworkParticle {
-  constructor(x, y, color) {
+  constructor(x, y, color, speedScale = 1.0) {
     this.x = x;
     this.y = y;
     this.color = color;
     
-    // Velocity vectors
+    // Random angle and speed
     const angle = Math.random() * Math.PI * 2;
-    const speed = Math.random() * 6 + 2;
+    const speed = (Math.random() * 6 + 2) * speedScale;
     this.vx = Math.cos(angle) * speed;
     this.vy = Math.sin(angle) * speed;
     
-    this.gravity = 0.08;
-    this.friction = 0.975;
+    // Physics
+    this.gravity = 0.06;
+    this.friction = 0.95; // air resistance
     this.alpha = 1.0;
-    this.decay = Math.random() * 0.02 + 0.01;
-    this.size = Math.random() * 3.5 + 1.5;
+    this.decay = Math.random() * 0.016 + 0.008; // Slower fade
+    this.size = Math.random() * 2.5 + 1.2;
+    this.flicker = Math.random() > 0.4;
   }
   
   update() {
     this.vx *= this.friction;
     this.vy *= this.friction;
     this.vy += this.gravity;
+    
+    // Tiny wind drift
+    this.vx += (Math.random() - 0.5) * 0.02;
+    
     this.x += this.vx;
     this.y += this.vy;
     this.alpha -= this.decay;
+    
+    // Crackling/sparkling: sometimes spawn a tiny micro-spark
+    if (Math.random() > 0.94 && this.alpha > 0.3) {
+      fireworkParticles.push(new FireworkParticle(this.x, this.y, "#fff", 0.35));
+    }
   }
   
   draw() {
     fCtx.save();
-    fCtx.globalAlpha = this.alpha;
-    fCtx.fillStyle = this.color;
+    
+    let opacity = this.alpha;
+    if (this.flicker && Math.random() > 0.8) {
+      opacity *= 0.4; // twinkle effect
+    }
+    
+    fCtx.globalAlpha = opacity;
     fCtx.beginPath();
-    fCtx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    fCtx.fill();
+    fCtx.moveTo(this.x, this.y);
+    fCtx.lineTo(this.x - this.vx * 2.2, this.y - this.vy * 2.2);
+    fCtx.strokeStyle = this.color;
+    fCtx.lineWidth = this.size;
+    fCtx.lineCap = "round";
+    fCtx.stroke();
+    
     fCtx.restore();
   }
 }
 
 class FireworkShell {
   constructor() {
-    this.x = Math.random() * (fireworksCanvas.width - 200) + 100;
+    this.x = Math.random() * (fireworksCanvas.width - 300) + 150;
     this.y = fireworksCanvas.height;
     
-    // Launch angle slightly offset from straight up
-    this.targetY = Math.random() * (fireworksCanvas.height / 2.2) + 100;
-    this.speed = Math.random() * 5 + 10;
+    this.targetY = Math.random() * (fireworksCanvas.height / 2.2) + 80;
+    this.speed = Math.random() * 4 + 11;
     this.vy = -this.speed;
-    this.vx = Math.random() * 2 - 1;
+    this.vx = Math.random() * 3 - 1.5;
     
     this.exploded = false;
-    this.color = `hsl(${Math.floor(Math.random() * 360)}, 100%, 60%)`;
+    
+    // Real-life hues: Golden orange, Cyan, Purple, Crimson, Lime, Gold
+    const hues = [25, 190, 280, 340, 155, 45];
+    const selectedHue = hues[Math.floor(Math.random() * hues.length)];
+    this.color = `hsl(${selectedHue}, 100%, 65%)`;
+    this.secondaryColor = Math.random() > 0.5 ? `hsl(${(selectedHue + 60) % 360}, 100%, 70%)` : this.color;
   }
   
   update() {
     this.y += this.vy;
     this.x += this.vx;
-    this.vy += 0.12; // launch gravity slowing down
+    this.vy += 0.14; // gravity slows down ascension
+    
+    // Spawn ascending launch sparks tail
+    if (Math.random() > 0.2) {
+      const tailColor = Math.random() > 0.4 ? "rgba(255, 180, 50, 0.6)" : "rgba(230, 230, 230, 0.4)";
+      const p = new FireworkParticle(this.x, this.y, tailColor, 0.2);
+      p.decay = Math.random() * 0.05 + 0.03; // short lifespan
+      p.vx = (Math.random() - 0.5) * 1.5 + (this.vx * 0.2);
+      p.vy = (Math.random() * 1.5) + (this.vy * 0.1);
+      fireworkParticles.push(p);
+    }
     
     if (this.vy >= 0 || this.y <= this.targetY) {
       this.explode();
@@ -513,19 +573,44 @@ class FireworkShell {
   
   draw() {
     fCtx.save();
-    fCtx.fillStyle = this.color;
+    fCtx.shadowBlur = 10;
+    fCtx.shadowColor = this.color;
+    fCtx.fillStyle = "#ffffff";
     fCtx.beginPath();
-    fCtx.arc(this.x, this.y, 4, 0, Math.PI * 2);
+    fCtx.arc(this.x, this.y, 3.5, 0, Math.PI * 2);
     fCtx.fill();
     fCtx.restore();
   }
   
   explode() {
     this.exploded = true;
-    // Spawn particles
-    const particleCount = 100 + Math.floor(Math.random() * 60);
-    for (let i = 0; i < particleCount; i++) {
-      fireworkParticles.push(new FireworkParticle(this.x, this.y, this.color));
+    const burstType = Math.random();
+    
+    if (burstType < 0.3) {
+      // Ring burst
+      const ringCount = 70 + Math.floor(Math.random() * 40);
+      for (let i = 0; i < ringCount; i++) {
+        const angle = (i / ringCount) * Math.PI * 2;
+        const speed = Math.random() * 2 + 5;
+        const p = new FireworkParticle(this.x, this.y, this.color);
+        p.vx = Math.cos(angle) * speed;
+        p.vy = Math.sin(angle) * speed;
+        p.friction = 0.96;
+        fireworkParticles.push(p);
+      }
+    } else if (burstType < 0.6) {
+      // Multicolored crackle
+      const count = 120 + Math.floor(Math.random() * 50);
+      for (let i = 0; i < count; i++) {
+        const particleColor = Math.random() > 0.4 ? this.color : this.secondaryColor;
+        fireworkParticles.push(new FireworkParticle(this.x, this.y, particleColor));
+      }
+    } else {
+      // Standard sphere blossom
+      const count = 130 + Math.floor(Math.random() * 50);
+      for (let i = 0; i < count; i++) {
+        fireworkParticles.push(new FireworkParticle(this.x, this.y, this.color));
+      }
     }
   }
 }
@@ -541,7 +626,6 @@ function startFireworks() {
   activeShells = [];
   shellLaunchTimer = 0;
   
-  // Launch initial burst of shells
   activeShells.push(new FireworkShell());
   setTimeout(() => { if(fireworksActive) activeShells.push(new FireworkShell()); }, 400);
   setTimeout(() => { if(fireworksActive) activeShells.push(new FireworkShell()); }, 850);
@@ -557,25 +641,24 @@ function stopFireworks() {
 function updateFireworks(timestamp) {
   if (!fireworksActive) return;
   
-  // Trail effect clearing
-  fCtx.fillStyle = 'rgba(7, 5, 15, 0.2)';
+  // High fidelity transparent trails
+  fCtx.globalCompositeOperation = 'destination-out';
+  fCtx.fillStyle = 'rgba(0, 0, 0, 0.16)';
   fCtx.fillRect(0, 0, fireworksCanvas.width, fireworksCanvas.height);
+  fCtx.globalCompositeOperation = 'source-over';
   
-  // Launch shells periodically
   shellLaunchTimer++;
   if (shellLaunchTimer > 45 && activeShells.length < 5) {
     activeShells.push(new FireworkShell());
     shellLaunchTimer = 0;
   }
   
-  // Update and draw launch shells
   activeShells = activeShells.filter(s => !s.exploded);
   activeShells.forEach(s => {
     s.update();
     s.draw();
   });
   
-  // Update and draw explosion particles
   fireworkParticles = fireworkParticles.filter(p => p.alpha > 0);
   fireworkParticles.forEach(p => {
     p.update();
@@ -585,11 +668,53 @@ function updateFireworks(timestamp) {
   requestAnimationFrame(updateFireworks);
 }
 
+// Change active user
+function setActiveUser(user) {
+  activeUser = user;
+  localStorage.setItem("cinepick_active_user", user);
+  
+  if (user === "Boy") {
+    userBoyColor.classList.add("active");
+    userGirlColor.classList.remove("active");
+  } else {
+    userGirlColor.classList.add("active");
+    userBoyColor.classList.remove("active");
+  }
+}
+
 // Setup Event Listeners
 function setupEventListeners() {
   refreshBtn.addEventListener("click", refreshMovies);
   dbUpdateBtn.addEventListener("click", updateMovieDatabase);
   celebrationCloseBtn.addEventListener("click", closeCelebration);
+  
+  // Color block clicks
+  userBoyColor.addEventListener("click", () => setActiveUser("Boy"));
+  userGirlColor.addEventListener("click", () => setActiveUser("Girl"));
+  
+  // Set initial active state visual
+  setActiveUser(activeUser);
+  
+  // Set initial names in inputs
+  userBoyNameInput.value = boyName;
+  userGirlNameInput.value = girlName;
+  
+  // Name input changes
+  userBoyNameInput.addEventListener("input", (e) => {
+    boyName = e.target.value.trim() || "Boy";
+    localStorage.setItem("cinepick_boy_name", boyName);
+    renderSelectedMovies();
+  });
+  
+  userGirlNameInput.addEventListener("input", (e) => {
+    girlName = e.target.value.trim() || "Girl";
+    localStorage.setItem("cinepick_girl_name", girlName);
+    renderSelectedMovies();
+  });
+  
+  // Switch active user on name input focus
+  userBoyNameInput.addEventListener("focus", () => setActiveUser("Boy"));
+  userGirlNameInput.addEventListener("focus", () => setActiveUser("Girl"));
   
   celebrationOverlay.addEventListener("click", (e) => {
     if (e.target === celebrationOverlay) {

@@ -98,6 +98,7 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  position: relative;
 }
 
 /* Header */
@@ -696,9 +697,9 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(4, 2, 10, 0.65);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(4, 2, 10, 0.15); /* Slightly transparent background overlay */
+  backdrop-filter: blur(1.5px); /* Very slight blur to layer elegantly */
+  -webkit-backdrop-filter: blur(1.5px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -785,7 +786,7 @@ body::before {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-  z-index: 99;
+  z-index: 101; /* Layers on top of celebration overlay (100) */
 }
 
 /* Skeleton loader for cards */
@@ -810,5 +811,131 @@ body::before {
 @keyframes loading {
   100% {
     transform: translateX(100%);
+  }
+}
+
+/* User Selector Floating Widget */
+.user-selector-widget {
+  position: absolute;
+  top: 2.5rem;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: rgba(20, 16, 38, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.75rem;
+  border-radius: var(--border-radius-md);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 100;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.user-option {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.color-block {
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  outline: none;
+  transition: var(--transition-smooth);
+}
+
+.color-block.boy {
+  background-color: #3b82f6; /* Blue */
+}
+
+.color-block.girl {
+  background-color: #ec4899; /* Pink */
+}
+
+.color-block:hover {
+  transform: scale(1.15);
+}
+
+.color-block.boy.active {
+  border-color: #ffffff;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+}
+
+.color-block.girl.active {
+  border-color: #ffffff;
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.8);
+}
+
+/* Borderless inputs for user names */
+.user-name-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: #fff;
+  font-family: var(--font-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  width: 75px;
+  padding: 2px 4px;
+  transition: var(--transition-smooth);
+}
+
+.user-name-input:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-name-input:focus {
+  outline: none;
+  border-bottom-color: #fff;
+}
+
+.user-name-input.boy {
+  color: #93c5fd; /* Soft Blue text */
+}
+
+.user-name-input.girl {
+  color: #fbcfe8; /* Soft Pink text */
+}
+
+/* Selected List User Tag Meta Details */
+.selected-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+}
+
+.selected-by-label {
+  color: var(--text-muted);
+}
+
+.selected-by-name {
+  font-weight: 700;
+}
+
+.selected-by-name.boy {
+  color: #60a5fa; /* Blue name */
+}
+
+.selected-by-name.girl {
+  color: #f472b6; /* Pink name */
+}
+
+.selected-meta-divider {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 768px) {
+  .user-selector-widget {
+    position: static;
+    margin: 0 auto 1.5rem auto;
+    flex-direction: row;
+    justify-content: center;
+    width: max-content;
   }
 }
