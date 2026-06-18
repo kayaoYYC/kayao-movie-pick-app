@@ -8,8 +8,9 @@ CinePick is a premium, dark-themed, interactive single-page web application desi
 
 - **3-Slot Movie Roll:** Roll three popular movie suggestions at once.
 - **Smart Card Locking:** Lock specific movie slots that catch your eye, and click **Refresh Unlocked** to randomize the remaining cards.
-- **Curated Favorites List:** Heart your favorite movies to save them to a list stored in your browser's `localStorage`.
-- **Celebration Animations:** Selecting a movie triggers a custom, physics-based 2D canvas fireworks display and a victory overlay modal.
+- **Customizable 2-User Selection:** A floating widget in the top-right corner allows two users to toggle between **Blue** and **Pink** color slots. Names are fully editable (defaulting to *Nick Wilde* and *Judy Hopps*) and persist in `localStorage`.
+- **Tagged Favorites List:** Hearting a movie records the active user's name and saves the choice in the favorites list (rendered as a colored "Selected by [Name]" label).
+- **High-Fidelity Transparent Fireworks:** Selecting a movie triggers an immersive, real-life canvas fireworks simulation (with launch trails, motion-blur velocity lines, wind drift, and crackling) layered transparently over the main page.
 - **IMDb Integrations:** Click the IMDb badge on any card to view detailed metadata, ratings, runtimes, and movie overviews.
 - **Live IMDb Scraper & Wikipedia Resolver:** Includes a Python background sync engine that scrapes popular films, filters out horror movies, and queries Wikipedia APIs to find high-res posters and IMDb IDs.
 - **Local Fallback Mode:** Works perfectly offline or when rate-limited, falling back to a pre-seeded, high-quality collection of recent movies.
